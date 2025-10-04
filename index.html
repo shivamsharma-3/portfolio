@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Sharma - Frontend Developer & AI Enthusiast</title>
+    <meta name="description" content="B.Tech graduate in AI & Data Science, specializing in frontend web development with modern technologies.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init("MaI9NOqd-mmsvjeD6");
+    </script>
+
+</head>
+<body>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">SHIVAM</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">RESUME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, My Name Is</span>
+                        <span class="name" id="typingText">SHIVAM SHARMA</span>
+                    </h1>
+                    <p class="hero-subtitle">B.Tech graduate in Artificial Intelligence & Data Science, actively learning and growing in frontend web development. Skilled in HTML, CSS, and JavaScript with hands-on project experience and a strong eye for design and user experience.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        
+                        <img src="shivam.jpg" alt="Shivam Sharma"
+                         ="profile-pic" class="profile-picture" />
+                        <div class="floating-elements">
+                            <div class="float-element" data-speed="2">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="float-element" data-speed="3">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="float-element" data-speed="1.5">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About me</h2>
+                <h3 class="section-subtitle">Who Am I</h3>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">My name is Shivam Sharma, and I am a passionate B.Tech graduate in AI & Data Science. I have always been fascinated by the ever-evolving world of technology, and I'm thrilled to be able to bring my creative ideas to life through coding. My primary focus is in frontend web development, where I enjoy crafting beautiful and intuitive user interfaces that not only look visually appealing but also offer excellent user experience.</p>
+                    <p class="about-description">I am currently transitioning to MERN stack development, focusing on React, Node.js, and MongoDB. I am experienced with Git, GitHub, and modern development workflows. Continuously learning and staying up-to-date with the latest trends and technologies is a priority for me. I thrive on creating new code, from concept to completion.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span class="skill-name">React</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span class="skill-name">CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                    </div>
+                    <a href="resume.pdf" class="btn btn-primary download-cv" download="Shivam_Sharma_Resume">Download CV</a>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="1">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Internships Completed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Internships & Projects</h2>
+                <h3 class="section-subtitle">My Experience & Work</h3>
+            </div>
+            
+            <div class="resume-content">
+                <!-- Internships Section -->
+                <div class="resume-section">
+                    <h3 class="resume-section-title">Internships</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Web Developer Intern</h4>
+                                <span class="timeline-date">CodeTech IT Solution - Feb 2025 - Apr 2025</span>
+                                <p>This is the title of the internship. This is company name and date of internship.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Web Development & Designing</h4>
+                                <span class="timeline-date">OASIS InfoBYTE - Aug 2025 - Sep 2025</span>
+                                <p>Web development and designing internship experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projects Section -->
+                <div class="resume-section">
+                    <h3 class="resume-section-title">Projects</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Pizza Delivery App</h4>
+                                <span class="timeline-date">OASIS INFOBYTE</span>
+                                <p>• Describe it in 2 points<br>• Full-stack web application</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Movie Search App</h4>
+                                <span class="timeline-date">OASIS INFOBYTE</span>
+                                <p>Movie search application with API integration.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Recipe Finder App</h4>
+                                <span class="timeline-date">CodeTech IT Solution</span>
+                                <p>Recipe discovery platform.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Restaurant Management & Booking Platform</h4>
+                                <span class="timeline-date">Academic Project</span>
+                                <p>Complete restaurant management system.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Start-up Success Predictor</h4>
+                                <span class="timeline-date">Academic Project</span>
+                                <p>ML project for startup success prediction.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What I Can Build</h2>
+                <h3 class="section-subtitle">Fresh Skills & Growing Expertise</h3>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h4 class="service-title">Frontend Development</h4>
+                    <p class="service-description">Creating responsive websites using HTML5, CSS3, and JavaScript with modern design principles and mobile-first approach.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h4 class="service-title">UI Design</h4>
+                    <p class="service-description">Designing clean and intuitive user interfaces with attention to user experience and modern web design trends.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h4 class="service-title">Interactive Web Apps</h4>
+                    <p class="service-description">Building dynamic web applications with JavaScript, API integration, and modern frameworks learned through internships.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4 class="service-title">Responsive Design</h4>
+                    <p class="service-description">Ensuring websites work perfectly on all devices using CSS media queries and flexible grid systems.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h4 class="service-title">Version Control</h4>
+                    <p class="service-description">Managing code efficiently using Git and GitHub for collaborative development and project tracking.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h4 class="service-title">Quick Learning</h4>
+                    <p class="service-description">Eager to learn new technologies and frameworks, with proven ability to adapt and deliver results during internships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Let's work together on your next project</h2>
+                <p class="cta-description">Ready to bring your ideas to life? I'm here to help you create amazing digital experiences that will make your brand stand out.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <h3 class="section-subtitle">Get In Touch</h3>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 90637 03256</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>shivamsharma4c@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>IDA Bollaram, Hyderabad, Telangana</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>SHIVAM SHARMA</h3>
+                    <p>Frontend Developer & AI Enthusiast</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/shivam._s3/" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://profile.indeed.com/p/shivams-2102jpy" class="social-link indeed-link" target="_blank">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shivam-sharma1203/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/shivamsharma-3" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Shivam Sharma. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
